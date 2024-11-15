@@ -4,7 +4,6 @@ require_once 'header.php';
 
 
 
-
 ?>
 
 <!-- Page Content -->
@@ -12,6 +11,18 @@ require_once 'header.php';
 <div class="main-banner header-text" id="top">
     <div class="Modern-Slider">
         <!-- Item -->
+
+        <div class="item item-3">
+            <div class="img-fill">
+                <div class="text-content">
+                    <h6>Cutting-Edge Technology</h6>
+                    <h4>Advanced Metal Cutting</h4>
+                    <p>Efficient, precise cutting with the latest CNC and Oxyfuel tech.</p>
+                    <a href="#getquote" class="filled-button">Get Quote</a>
+                </div>
+            </div>
+        </div>
+
         <div class="item item-1">
             <div class="img-fill">
                 <div class="text-content">
@@ -34,16 +45,7 @@ require_once 'header.php';
             </div>
         </div>
 
-        <div class="item item-3">
-            <div class="img-fill">
-                <div class="text-content">
-                    <h6>Cutting-Edge Technology</h6>
-                    <h4>Advanced Metal Cutting</h4>
-                    <p>Efficient, precise cutting with the latest CNC and Oxyfuel tech.</p>
-                    <a href="#getquote" class="filled-button">Get Quote</a>
-                </div>
-            </div>
-        </div>
+
         <!-- // Item -->
     </div>
 </div>
@@ -90,7 +92,8 @@ require_once 'header.php';
                         <h4>Boiler and Pressure vessel steel (SA516Grade70/60)</h4>
                         <p>High-strength steel plates designed for pressure vessels and boilers. Reliable under extreme
                             pressure and temperature conditions.</p>
-                        <a href="#getquote" data-value="Boiler and Pressure vessel steel" class="filled-button">Get Quote</a>
+                        <a href="#getquote" data-value="Boiler and Pressure vessel steel" class="filled-button">Get
+                            Quote</a>
                     </div>
                 </div>
             </div>
@@ -101,7 +104,7 @@ require_once 'header.php';
                         <h4>Structural steel plates ( IS2062-E250)</h4>
                         <p>Strong steel plates for construction projects, ideal for bridges, buildings, and heavy-duty
                             machinery.</p>
-                            <br>
+                        <br>
                         <a href="#getquote" data-value="Structural steel plates" class="filled-button">Get Quote</a>
                     </div>
                 </div>
@@ -310,8 +313,9 @@ require_once 'header.php';
                         <div class="row">
                             <div class="col-lg-6 col-md-12 col-sm-12 my-2 my-lg-3">
                                 <input name="contact_number" type="text" class="form-control" id="contact_number"
-                                    placeholder="Contact Number*" oninput="this.value = this.value.replace(/[^0-9]/g, '');"
-                                    maxlength="12" required="">
+                                    placeholder="Contact Number*"
+                                    oninput="this.value = this.value.replace(/[^0-9]/g, '');" maxlength="12"
+                                    required="">
                                 <div class="error-msg" id="error-contact_number"></div>
                             </div>
                             <div class="col-lg-6 col-md-12 col-sm-12 my-2 my-lg-3">
@@ -387,7 +391,7 @@ require_once 'header.php';
             <div class="col-md-12 p-0" style="height:450px;">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.2869560347376!2d72.6306774!3d22.976473100000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e89100ede43b9%3A0x2ae2276eabf1cd28!2sYogeshwar%20Profile%20vatva!5e0!3m2!1sen!2sin!4v1731495832441!5m2!1sen!2sin"
-                    width="100%" height="100%"  style="border:0;" allowfullscreen="" loading="lazy"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>

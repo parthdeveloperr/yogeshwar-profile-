@@ -428,11 +428,11 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/slider1.jpg);
+	background-image: url(../images/slider2.jpg);
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/slider2.jpg);
+	background-image: url(../images/slider1.jpg);
 }
 
 .Modern-Slider .item-3 .img-fill {
@@ -1544,7 +1544,6 @@ footer .contact-form button.filled-button:hover {
 
 	.callback-form .contact-form {
 		padding: 20px;
-
 	}
 }
 

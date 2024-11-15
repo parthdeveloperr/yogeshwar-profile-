@@ -52,7 +52,8 @@
                             <div class="col-lg-12 col-md-12 col-sm-12">
                                 <fieldset>
                                     <input name="contact_number" type="text" class="form-control" id="contact_number"
-                                    oninput="this.value = this.value.replace(/[^0-9]/g, '');" maxlength="12" placeholder="Contact Number*" required="">
+                                        oninput="this.value = this.value.replace(/[^0-9]/g, '');" maxlength="12"
+                                        placeholder="Contact Number*" required="">
                                     <div class="error-msg" id="error-contact_number"></div>
                                 </fieldset>
                             </div>
@@ -66,7 +67,7 @@
                             <div class="col-lg-12">
                                 <fieldset>
                                     <button type="submit" id="form-submit" class="filled-button">
-                                       Request
+                                        Request
                                     </button>
                                 </fieldset>
                             </div>
@@ -85,7 +86,7 @@
                 <p>Copyright &copy; <?= date('Y') ?> Yogeshwar Profile
 
                     - Designed & Developed By <a rel="nofollow noopener" href="https://oceanmnc.com"
-                        target="_blank">OceanMNC</a>
+                        target="_blank">Ocean MNC</a>
                 </p>
             </div>
         </div>
